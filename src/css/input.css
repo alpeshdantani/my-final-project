@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+
+@font-face {
+    font-family: myfont;
+    src: url(/src/assets/font/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: kalpesh;
+    src: url(/src/assets/font/Edu_QLD_Hand/EduQLDHand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: alpes;
+    src: url(/src/assets/font/PlaywriteCAGuides-Regular.ttf);
+}
+
+@theme{
+
+    --font-myfont:myfont;
+    --font-kalpesh:kalpesh;
+
+    --font-alpesh:alpesh;
+
+}
+--animate-slowspin: animatespin 3s;
