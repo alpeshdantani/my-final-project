@@ -16,12 +16,19 @@
     src: url(/src/assets/font/PlaywriteCAGuides-Regular.ttf);
 }
 
+@font-face {
+    font-family: text; 
+    src: url(/src/assets/font/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
 @theme{
 
     --font-myfont:myfont;
     --font-kalpesh:kalpesh;
 
     --font-alpesh:alpesh;
+
+    --font-text: text;
 
 }
 --animate-slowspin: animatespin 3s;
